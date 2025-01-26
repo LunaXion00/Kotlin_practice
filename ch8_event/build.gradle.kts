@@ -7,7 +7,9 @@ plugins {
 android {
     namespace = "com.example.ch8_event"
     compileSdk = 35
-
+    buildFeatures{
+        viewBinding=true
+    }
     defaultConfig {
         applicationId = "com.example.ch8_event"
         minSdk = 24
